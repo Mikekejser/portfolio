@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
-
-DEBUG = os.environ['DJANGO_DEBUG'] != 'False'
-
-ALLOWED_HOSTS = ['mikekejser.dk']
-
+# SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'o205=r%1-h)6o3=7d%s@cl@3124lftz%6x21eatbw(4_n@5*0&'
+# DEBUG = os.environ['DJANGO_DEBUG'] != 'False'
+DEBUG = True
+# ALLOWED_HOSTS = ['mikekejser.dk']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'core',
     'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -124,10 +126,9 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
 
-EMAIL_HOST = os.environ['EMAIL_HOST']
-EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
-EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
-EMAIL_PORT = os.environ['EMAIL_PORT']
-EMAIL_USE_TLS = os.environ['EMAIL_USE_TLS']
+EMAIL_HOST = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_USE_TLS =''
 
-MESSAGE_RECEIVER = os.environ['MESSAGE_RECEIVER']
+MESSAGE_RECEIVER = ''

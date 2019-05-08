@@ -1,0 +1,28 @@
+.container {
+	font-family: Arial;
+	padding: 40px 0;
+}
+
+img {
+	box-shadow: 0 5px 5px #333;
+}
+
+#images {
+	padding-top: 0;
+}
+
+#title {
+	background: #001628;
+}
+
+.site-description {
+	color: #888c93
+}
+
+#about {
+	word-break: normal;
+}
+
+.imgcolumn {
+	margin-top: 40px;
+}

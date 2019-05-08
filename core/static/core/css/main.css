@@ -1,0 +1,58 @@
+.container {
+	padding-top: 40px;
+	font-family: Arial;
+}
+
+section {
+	padding-bottom: 40px;
+	background: #001628;
+}
+
+h2 {
+	font-family: Lato;
+	font-size: 3em;
+}
+
+hr {
+	border: 5px solid white;
+	border-radius: 5px;
+	max-width: 60vw;
+}
+
+.col-md-6, .col-lg-4, .col-md-4 {
+	margin-bottom: 30px;
+}
+
+a > img {
+	box-shadow: 0 5px 5px #333;
+}
+
+a.d-block {
+	color: #2c3e50;
+}
+a.d-block:hover {
+	filter: brightness(110%);
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+#portfolio {
+	/*background: #18bc9c;*/
+	background: white;
+}
+
+#portfolio hr {
+	border-color: #2c3e50;
+}
+
+#portfolio {
+	color: #2c3e50;
+}
+
+.site-description {
+	color: #888c93
+}
+
+.fa-star {
+	color: #e4ef09;
+}
